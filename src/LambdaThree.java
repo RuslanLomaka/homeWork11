@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-
 import static java.lang.Integer.parseInt;
 
 
@@ -24,7 +22,6 @@ public class LambdaThree {
                 .sorted()
                 .forEach(i -> System.out.print(i + ", "));
 
-
         //Improved second version when I asked chat GPT for advice and learned more about Collectors
 //        String sortedNumbers = Arrays.stream(data)
 //                .flatMap(d -> Arrays.stream(d.replaceAll(" ", "").split(","))) // Flatten all strings into a single stream
@@ -36,10 +33,7 @@ public class LambdaThree {
 //        System.out.println(sortedNumbers);
 
     }
-
-
 }
-
 
 class LambdaThreeSandBox {
 
