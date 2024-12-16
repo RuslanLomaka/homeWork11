@@ -10,7 +10,7 @@ interface extractatable {
 
 public class LambdaTwo {
 
-    private String extractP2(String whole) {
+    private String extractP2(String whole) {//extracting part 2 from given string after first "." dot
         // Extract the name part after "number. " ("John" from "1. John")
         return whole.substring(whole.indexOf('.') + 2).trim();
     }
